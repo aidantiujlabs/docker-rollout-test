@@ -13,7 +13,7 @@ services:
   app:
     build: .
     environment:
-      VERSION: v6
+      VERSION: v7
     labels:
       - "traefik.enable=true"
       - "traefik.http.routers.app.rule=Host(`app.localhost`)"
